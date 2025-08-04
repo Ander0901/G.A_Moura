@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-size: 1rem;
+}
+
+/*meio*/
+
+body{
+    background: linear-gradient(to bottom, #F26522, #FFD54F);
+}
+main{
+    padding: 20px;
+    background-color: #fff;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
+h1{
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.cadastro form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cadastro input{
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #868686;
+    color: black;
+    border-radius: 100px;
+}
+.cadastro input:focus{
+    outline: none;
+    border: 1px solid #f26522;
+}
+.cadastro button{
+    padding: 10px;
+    background-color:#f26522;
+    border:none;
+    color: white;
+    cursor: pointer;
+    margin: 10px 180px;
+}
+.cadastro button:hover{
+    background-color: #b9450f;
+}
+footer {
+    background-color: #F26522;
+}
+.rodape {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.footer-section{
+  text-align: center;
+}
+footer p {
+  color: #f8f9fa;
+  font-size: 0.8rem;
+  text-align: center;
+}
+footer h2{
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
