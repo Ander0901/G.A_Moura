@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="/assets/css/cadastro.css">
+</head>
+<body>    
+    <main>
+        <div class="caixa_casdastro">
+            <h1>Cadastre-se</h1>
+            <div class="cadastro">
+                <form>
+                    <input type="text" placeholder="Nome Completo" required>
+                    <input type="date" placeholder="Data de nacimento" required>
+                    <input type="text" placeholder="CPF" required>
+                    <input type="email" placeholder="email" required>
+                    <input type="text" placeholder="Telefone" required>
+                    <input type="password" placeholder="Senha" required>
+                    <input type="password" placeholder="Confirme sua senha" required>
+                        <div 
+                            class="g-recaptcha"
+                            data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+                            data-callback="onRecaptchaSuccess">
+                        </div>
+                    <button type="submit" id="enviarBtn" disabled>Cadastre-se</button>
+                </form>
+            </div>
+        </div>
+        <div class="colaborador">
+            <p>Caso seja  um colaborador com CNPJ</p>
+            <a href="#">Clique Aqui</a>
+        </div>
+        <div class="login">
+            <p>ja tem uma conta? faca seu <a href="#">login</a></p>
+        </div>
+    </main>
+    <footer>
+            <div class="rodape">
+                <ul class="menu">
+                    <li><a href="#sobre">Sobre G.A Moura</a></li>
+                    <li><a href="#produtos">Produtos e Servicos</a></li>
+                    <li><a href="#unidade">Unidades e Franquias</a></li>
+                    <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+                    <li><a href="#atendimento">Atendimento</a></li>
+                </ul>
+                <ul class="suporte">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#trabalhecom_nosco">Trabalhe com nosco</a></li>
+                    <li><a href="suporte">suporte</a></li>
+                </ul>
+                <ul class="empresa">
+                    <li><a href="#empresa">Empresas</a></li>
+                    <li><a href="#ajuda">Ajuda</a></li>
+                    <li><a href="#perfil">perfil</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <a href="#">Instagram</a> |
+                    <a href="#">Facebook</a> |
+                    <a href="#">linkedin</a>
+            </div>
+            <hr>
+            <p>&copy; 2024 G.A Moura. Todos os direitos reservados.</p>
+        </footer>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+      function onRecaptchaSuccess() {
+        document.getElementById("enviarBtn").disabled = false;
+      }
+    </script>
+</body>
+</html>
