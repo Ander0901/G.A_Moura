@@ -1,0 +1,120 @@
+
+/* Propaganda rotativa */
+
+#imagem-rotativa {
+  width: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease-in-out;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+/* parte de cima, Quem Somos! */
+
+.cima {
+  margin-top: 100px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.texto {
+  margin: auto;
+}
+
+.texto h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.texto {
+  text-align: center;
+  width:400px;
+  max-width: 100%;
+  font-size: 1.2rem;
+}
+.botao button {
+  padding: 6px 25px;
+  background-color: #f26522;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.banner_cima {
+  margin: auto;
+}
+.banner_cima img {
+  margin-top: 15px;
+  width: 500px;
+  height: auto;
+  max-width: 100%;
+}
+
+/* parte do meio, Nossos produtos */
+
+.meio {
+  margin-top: 100px;
+  text-align: center;
+}
+.meio h2 {
+  font-size: 2rem;
+}
+.img_meio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.img_meio .imagem1 img {
+    width: 450px;
+    max-width: 100%;
+    margin-left: 10px;
+}
+.img_meio .imagem2 img {
+    width: 300px;
+    margin-right: 60px;
+    max-width: 100%;
+}
+.texto_meio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 90px;
+}
+
+/* parte de baixo, Seja um Franqueador */
+
+.baixo h2{
+  margin-top: 100px;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.baixo img {
+  width: 100%;
+}
+.baixo .botao {
+  text-align: center;
+}
+.baixo button {
+  width: 200px;
+  height: 50px;
+  font-size: 1.4rem;
+}
+
+/* parceiros */
+.parceiros .titulo {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.parceiros h2 {
+  font-size: 2rem;
+}
+.logos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.logos img {
+  width: 100px;
+}

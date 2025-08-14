@@ -1,0 +1,21 @@
+footer {
+    background-color: #F26522;
+    padding-top: 20PX;
+}
+.rodape {
+    display: flex;
+    justify-content: space-around;
+}
+.social {
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    margin: 15px 0px;
+}
+footer p {
+    text-align: center;
+}
+.rodape a, footer h4, footer p, .social a, .social {
+    color: white;
+    text-decoration: underline;
+}
