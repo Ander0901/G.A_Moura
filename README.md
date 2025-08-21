@@ -1,2 +1,2 @@
 # G.A_Moura
-uma empresa de losgitica e industrai de embalagens plastica, site criado apenas para fins de estudos, ainda em processo de criação.
+Uma empresa de logística e indústria de embalagens plásticas. O site foi criado apenas para fins de estudo e ainda está em processo de desenvolvimento.
