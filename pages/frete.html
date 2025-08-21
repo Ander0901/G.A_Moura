@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>G.A Moura</title>
+    <link rel="icon" type="image/png" href="../assets/IMG/global/ico.png" />
+    <link rel="stylesheet" href="../assets/CSS/pages/frete/frete.css" />
+</head>
+<body>
+  <header>
+    <div class="cabecalho">
+      <div class="logo">
+        <nav>
+          <a href="../index.html">
+            <picture>
+              <source
+                srcset="../assets/IMG/global/Logo_com_fundo.jpg"
+                media="(max-width: 1015px)"
+              />
+              <img
+                src="../assets/IMG/global/Logo_estendida_meio.jpg"
+                alt="Logo G.A Moura"
+                width="200px"
+              />
+            </picture>
+          </a>
+        </nav>
+      </div>
+      <div class="user">
+        <div class="icone">
+            <img
+              src="../assets/IMG/global/user.png"
+              alt="icone de usuario"
+              width="200px"
+            />
+          </div>
+          <div class="login_cadastro">
+            <div class="cadastro">
+              <nav>
+                <a href="cadastro.html">
+                  <p>Cadastre-se</p>
+                </a>
+              </nav>
+            </div>
+            <div class="login">
+              <details><summary>Login</summary>
+                <form>
+                    <label for="CNPJ">CNPJ</label>
+                    <input type="text" placeholder="CNPJ" id="CNPJ" />
+                    <p>ou</p>
+                    <label for="CPF">CPF</label>
+                    <input type="text" placeholder="CPF" id="CPF" />
+                    <label for="Senha">Senha</label>
+                    <input type="password" placeholder="Senha" id="Senha" />
+                    <button type="submit" id="buscar">Enviar</button>
+                </form>
+              </details>
+            </div>
+          </div>
+        </div>
+        <div class="buscar">
+          <div class="icon_busca">
+            <img
+              src="../assets/IMG/global/localizacao.png"
+              alt="Pino de localizacao"
+              width="100px"
+            />
+          </div>
+          <div class="frase_rastreio">
+            <p>Ratreie sua encomenda</p>
+          </div>
+          <div class="buscar_produto">
+            <form>
+              <input
+                type="text"
+                id="buscar_produto"
+                placeholder=" ID do Produto"
+              />
+              <button type="submit" id="id_do_produto">Procurar</button>
+            </form>
+          </div>
+        </div>
+        <div class="menu">
+          <nav>
+            <ul>
+              <li><a href="./sobre.html">Sobre G.A Moura</a></li>|
+              <li><a href="./produto.html">Produtos e Servicos</a></li>|
+              <li><a href="./unidade.html">Unidades e Franquias</a></li>|
+              <li><a href="./sustentabilidade.html">Sustentabilidade</a></li>|
+              <li><a href="./frete.html">Calcule seu frete</a></li>|
+              <li><a href="./atendimento.html">Atendimento</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+  </header>
+  <main>
+    <section class="conteudoDeEnvio">
+      <h2>Faça sua simulação de Frete na G.A Moura</h2>
+      <div class="conteudo">
+        <div class="eletronicos">
+          <button>Eletronicos</button>
+        </div>
+        <div class="Alimentos"> 
+          <button>Alimentos e Bebidas</button>
+        </div>
+        <div class="casa">
+          <button>Casa e construções</button>
+        </div>
+        <div class="obejetos">
+          <button>Objetos e instrumentos</button>
+        </div>
+        <div class="cosmeticos">
+          <button>cosméticos</button>
+        </div>
+      </div>
+    </section>
+    <section class="simulaçãoDeEnvio">
+      <div class="saidaDeEntrega">
+        <h2>Local de origem</h2>
+        <form>
+          <div class="cep">
+          <label>CEP</label>
+          <input type="text" placeholder="" id="CEP">
+          </div>
+          <div class="endereco">
+          <label>Endereço</label>
+          <input type="text" placeholder="" id="">
+          </div>
+          <div class="vaziu">
+          </div>
+          <div class="Modalidade">
+              <label>Modalidade</label>
+              <select>
+                <option>G.A Moura Espresso</option>
+                <option>G.A Moura Economico</option>
+                <option>G.A Moura Package</option>
+              </select>
+            </details>
+          </div>
+          <div class="produto">
+              <label>Tipo de Produto</label>
+              <select>
+                <option value="produto">Eletrônicos</option>
+                <option value="alimento">Alimentos e bebidas</option>
+                <option value="casa">Casa construções</option>
+                <option value="objetos">Objetos equipamentos</option>
+                <option value="cosmeticos">Cosméticos</option>
+              </select>
+          </div>
+          <div class="peso">
+            <label> Peso:</label>
+            <input type="text">
+          </div>
+          <div class="largura">
+            <label>largura(cm):</label>
+            <input type="text">
+          </div>
+          <div class="altura">
+            <label>altura(cm):</label>
+            <input type="text">
+          </div>
+          <div class="comprimento">
+            <label>Comprimento(cm):</label>
+            <input type="text">
+          </div>
+        </form>
+      </div>
+      <div class="destinoDeEntrega">
+        <h2>Local Destinado</h2>
+        <form>
+          <div class="endereco">
+          <label>Endereço</label>
+          <input type="text" placeholder="" id="">
+          </div>
+          <div class="cidade">
+          <label>cidade</label>
+          <input type="">
+          </div>
+          <div class="estado">
+          <label>estado</label>
+          <input type="text" name="" id="">
+          </div>
+          <div class="pais">
+          <label>País</label>
+          <input type="text" name="" id="">
+          </div>
+          <div class="cep">
+          <label>CEP</label>
+          <input type="text" placeholder="" id="CEP">
+          </div>
+        </form>
+      </div>
+      <div class="frete"> <button>Calcular Frete</button></div>
+      <div class="tempoEstimado">
+        <p>Resultado Estimado</p>
+        <ul>
+          <li><label>Hora:</label><input></li>
+          <li><label>data:</label><input></li>
+          <li><label>tempo gasto:</label><input></li>
+          <li><label>valor:</label><input></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer>
+      <div class="rodape">
+        <ul class="menu">
+          <li><a href="./sobre.html">Sobre G.A Moura</a></li>
+          <li><a href="./produto.html">Produtos e Servicos</a></li>
+          <li><a href="./unidade.html">Unidades e Franquias</a></li>
+          <li><a href="./sustentabilidade.html">Sustentabilidade</a></li>
+          <li><a href="./atendimento.html">Atendimento</a></li>
+        </ul>
+        <ul class="suporte">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li><a href="#trabalhecom_nosco">Trabalhe com nosco</a></li>
+          <li><a href="suporte">suporte</a></li>
+        </ul>
+        <ul class="empresa">
+          <li><a href="#empresa">Empresas</a></li>
+          <li><a href="#ajuda">Ajuda</a></li>
+          <li><a href="#perfil">perfil</a></li>
+        </ul>
+      </div>
+      <div class="social">
+        <h4>Redes Sociais</h4>
+        <a href="#">Instagram</a> | <a href="#">Facebook</a> |
+        <a href="#">linkedin</a>
+      </div>
+      <p>&copy; 2024 G.A Moura. Todos os direitos reservados.</p>
+  </footer>
+  <script>
+    document.querySelectorAll("details").forEach((detalhe) => {
+      detalhe.addEventListener("toggle", function() {
+        if (this.open) {
+          document.querySelectorAll("details").forEach((outro) => {
+            if (outro !== this) {
+              outro.removeAttribute("open");
+            }
+          });
+        }
+      });
+    });
+  </script>
+  <script>
+  !function(e){"function"==typeof define&&define.amd?define(["jquery"],e):"object"==typeof module&&module.exports?module.exports=function(o,r){return void 0===r&&(r="undefined"!=typeof window?require("jquery"):require("jquery")(o)),e(r),r}:e(jQuery)}(function(e){correios={init:function(e,o){window.correios_app_key=e,window.correios_app_secret=o}},e.fn.correios=function(o,r,t,c,a,n,i,l,s,d){var p;return"undefined"==typeof correios_app_key&&(console.log("Informe o app_key da sua aplicação dos Correios."),p=!0),"undefined"==typeof correios_app_secret&&(console.log("Informe o app_secret da sua aplicação dos Correios."),p=!0),!p&&(window.cep||(window.cep=[]),window.cep[this.selector]={c_endereco:o,c_bairro:r,c_cidade:t,c_uf:c,c_loading:a,c_readonly:n,c_numero:i,c_ibge:l,c_trigger_error:s,c_trigger_success:d},e(this).on("keyup",function(){if(input=e(this).val().replace(/[^0-9]/g,""),selector="#"+e(this).attr("id"),8==input.length){if(localStorage.getItem("correios_request")){if(date=localStorage.getItem("correios_request"),current_time=(new Date).getTime(),between=Math.round((current_time-date)/1e3),between<=5)return!1;localStorage.removeItem("correios_request"),localStorage.setItem("correios_request",(new Date).getTime())}else localStorage.setItem("correios_request",(new Date).getTime());cep[selector].c_loading&&e(cep[selector].c_loading).show(),e.getJSON("https://webmaniabr.com/api/1/cep/"+input+"/?app_key="+correios_app_key+"&app_secret="+correios_app_secret,function(a){if(cep[selector].c_trigger_error&&a.error?e(document).trigger(cep[selector].c_trigger_error):a.error?console.log("CEP Error: "+a.error):cep[selector].c_trigger_success&&e(document).trigger(cep[selector].c_trigger_success),cep[selector].c_loading&&e(cep[selector].c_loading).hide(),(cep[selector].c_endereco||e(o).val())&&(e(o).val(a.endereco),"boolean"==typeof cep[selector].c_readonly&&1==cep[selector].c_readonly&&a.endereco?e(o).attr("readonly","readonly"):e(o).removeAttr("readonly")),(cep[selector].c_bairro||e(r).val())&&(e(r).val(a.bairro),"boolean"==typeof cep[selector].c_readonly&&1==cep[selector].c_readonly&&a.bairro?e(r).attr("readonly","readonly"):e(r).removeAttr("readonly")),(cep[selector].c_cidade||e(t).val())&&(e(t).val(a.cidade),"boolean"==typeof cep[selector].c_readonly&&1==cep[selector].c_readonly&&a.cidade?e(t).attr("readonly","readonly"):e(t).removeAttr("readonly")),cep[selector].c_uf||e(c).val()){if(first_value=e(c+" option:eq(2)").val(),first_value.length>2){var n={};e(c).find("option").each(function(){n[e(this).text()]=e(this).attr("value")}),a.uf=n[{AC:"Acre",AL:"Alagoas",AP:"Amapá",AM:"Amazonas",BA:"Bahia",CE:"Ceará",DF:"Distrito Federal",ES:"Espírito Santo",GO:"Goiás",MA:"Maranhão",MT:"Mato Grosso",MS:"Mato Grosso do Sul",MG:"Minas Gerais",PA:"Pará",PB:"Paraíba",PE:"Pernambuco",PI:"Piauí",PR:"Paraná",RJ:"Rio de Janeiro",RN:"Rio Grande do Norte",RS:"Rio Grande do Sul",RO:"Rondônia",RR:"Roraima",SC:"Santa Catarina",SP:"São Paulo",SE:"Sergipe",TO:"Tocantins"}[a.uf]]}e(c).on("correios_clean_select",function(){e(c).find("option").removeAttr("disabled").removeAttr("selected")}),(cep[selector].c_ibge||e(l).val())&&(e(l).val(a.ibge).trigger("change"),"boolean"==typeof cep[selector].c_readonly&&1==cep[selector].c_readonly&&a.ibge?e(l).attr("readonly","readonly"):e(l).removeAttr("readonly")),"boolean"==typeof cep[selector].c_readonly&&1==cep[selector].c_readonly&&e(c).trigger("correios_clean_select"),e(c).find('option[value="'+a.uf+'"]').attr("selected","selected"),"boolean"==typeof cep[selector].c_readonly&&1==cep[selector].c_readonly&&a.uf&&e(c).find(":not(:selected)").prop("disabled",!0),e(c).val(a.uf).trigger("change"),void 0!==e.fn.select2&&e(c).select2(),!a.error&&cep[selector].c_numero&&e(cep[selector].c_numero).focus()}}).always(function(){localStorage.removeItem("correios_request")})}}),this)}});
+  </script>
+</body>
+</html>

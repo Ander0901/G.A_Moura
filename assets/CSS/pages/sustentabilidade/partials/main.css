@@ -1,0 +1,90 @@
+.content h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.content h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 40px 0;
+}
+
+/* Conteiner 1 */
+.cima {
+    margin-top: 50px;
+    padding: 20px;
+    box-shadow: 10px 10px 20px rgb(151, 151, 151);
+}
+.content1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.content1 img {
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 14px;
+}
+.content1 h3 {
+    font-size: 1.4rem;
+    margin-bottom:20px;
+}
+.content1 .text {
+    text-align: center;
+    width: 400px;
+}
+.content1 p {
+    font-size: 1.1rem;
+}
+
+/* conteiner 2*/ 
+.meio {
+    margin-top: 100px;
+    padding: 20px;
+    box-shadow: 10px 10px 20px rgb(151, 151, 151);
+}
+.content2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content2 img {
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 12px;
+}
+.content2 .text {
+    width: 400px;
+    text-align: center;
+}
+.content2 h3{
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+.content2 p {
+    font-size: 1.1rem;
+}
+
+/* Conteiner 3 */
+.baixo {
+    margin-top: 100px;
+    box-shadow: 10px 10px 20px rgb(151, 151, 151);
+    padding: 20px;
+    margin-bottom: 100px;
+}
+.content3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content3 .text {
+    width: 400px;
+}
+.content3 p {
+    text-align: center;
+    font-size: 1.1rem;
+}
+.content3 img {
+    width: 250px;
+    border-radius: 20px;
+}

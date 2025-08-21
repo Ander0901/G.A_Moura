@@ -124,6 +124,7 @@ header {
   color: #f8f9fa;
   border: 0;
   cursor: pointer;
+
 }
 
 /* menu de navegação do site */
@@ -145,6 +146,7 @@ header {
 .menu ul li a:hover {
   color: #f8f9fa;
   background-color: #f26522;
+  transition: 0.2s;
 }
 
 /* Medida para telas menores */
@@ -233,4 +235,30 @@ header {
   .menu li a {
     font-size: 0.4rem;
   }
+}
+
+footer {
+    background-color: #F26522;
+    padding-top: 20PX;
+}
+.rodape {
+    display: flex;
+    justify-content: space-around;
+}
+.social {
+    align-items: center;
+    text-align: center;
+    margin: 15px 0px;
+    font-size: 0.8rem;
+}
+.social a {
+    font-size: 0.8rem;
+}
+footer p {
+    text-align: center;
+    font-size: 0.8rem;
+}
+.rodape a, footer h4, footer p, .social a, .social {
+    color: white;
+    text-decoration: underline;
 }

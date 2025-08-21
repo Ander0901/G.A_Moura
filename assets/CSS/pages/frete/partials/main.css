@@ -1,0 +1,152 @@
+.conteudoDeEnvio h2 {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 30px;
+}
+.conteudoDeEnvio div {
+    display: flex;
+    gap: 53px;
+    background-color: rgb(224, 219, 219);
+    border-radius: 10px;
+}
+.conteudoDeEnvio button {
+    margin: 0;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    cursor: pointer;
+}
+.simulaçãoDeEnvio {
+    box-shadow: 10px 10px 40px rgb(150, 150, 150) ;
+    margin: 40px 0;
+    padding: 30px;
+}
+
+/* Local de origem */
+
+.saidaDeEntrega form, .destinoDeEntrega form{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.saidaDeEntrega h2, .destinoDeEntrega h2 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.saidaDeEntrega div, .destinoDeEntrega div {
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.saidaDeEntrega input {
+    width: 160px;
+    height: 20px;
+}
+.saidaDeEntrega select {
+    width: 164px;
+    height: 26px;
+    font-size: 13px;
+}
+.saidaDeEntrega option {
+    width: 164px;
+    height: 26px;
+    font-size: 13px;
+}
+.saidaDeEntrega select option:hover{
+    background-color: #f26522;
+    color: white;
+}
+.saidaDeEntrega label {
+    font-size: 0.8rem;
+}
+.saidaDeEntrega .cep {
+    grid-column: 1;
+}
+.saidaDeEntrega .endereco {
+    grid-column: 2;
+}
+.saidaDeEntrega .vaziu {
+    grid-column: 3;
+}
+.saidaDeEntrega .modalidade {
+    grid-column: 1;
+}
+.saidaDeEntrega .produto {
+    grid-column: 2;
+}
+.saidaDeEntrega .peso {
+    grid-column: 3;
+}
+.saidaDeEntrega .largura {
+    grid-column: 1;
+}
+.saidaDeEntrega .altura {
+    grid-column: 2;
+}
+.saidaDeEntrega .comprimento {
+    grid-column: 3;
+}
+.destinoDeEntrega h2 {
+    margin-top: 20px;
+}
+
+/* Local de destino */
+
+.destinoDeEntrega input {
+    width: 160px;
+    height: 20px;
+}
+.destinoDeEntrega label {
+    font-size: 0.8rem;
+}
+/* botão de calculo */
+
+.simulaçãoDeEnvio .frete {
+    text-align: center;
+    margin: 10px ;
+}
+.simulaçãoDeEnvio .frete button {
+    padding: 5px 10px;
+    font-size: 15px ;
+    border: none;
+    background-color: rgb(206, 206, 206);
+    cursor: pointer;
+}
+.simulaçãoDeEnvio .frete button:hover {
+    background-color: #f26522;
+    color: white;
+    transition: 0.3s;
+}
+
+/* resultado */
+
+.tempoEstimado p {
+    margin: 20px;
+    font-size: 15px;
+}
+.tempoEstimado ul, .tempoEstimado li {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.tempoEstimado label {
+    font-size: 0.8rem;
+}
+.tempoEstimado li input {
+    width: 80px;
+    height: 16px;
+    align-items: center;
+    margin-left: 10px;
+}
+
+/* animação */
+
+.conteudoDeEnvio button:hover {
+    background-color: #f26522;
+    color: white;
+    border-radius: 10px;
+    transition: 0.2s;
+}

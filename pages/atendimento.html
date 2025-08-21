@@ -8,98 +8,120 @@
     <link rel="stylesheet" href="../assets/CSS/pages/atendimento/atendimento.css" />
   </head>
 <body>
-     <header>
-      <div class="cabecalho">
-        <div class="logo">
-          <nav>
-            <a href="../index.html">
-              <picture>
-                <source
-                  srcset="../assets/IMG/global/Logo_com_fundo.jpg"
-                  media="(max-width: 1015px)"
-                />
-                <img
-                  src="../assets/IMG/global/Logo_estendida_meio.jpg"
-                  alt="Logo G.A Moura"
-                  width="200px"
-                />
-              </picture>
-            </a>
-          </nav>
-        </div>
-        <div class="user">
-          <div class="icone">
-            <img
-              src="../assets/IMG/global/user.png"
-              alt="icone de usuario"
-              width="200px"
-            />
-          </div>
-          <div class="login_cadastro">
-            <div class="cadastro">
-              <nav>
-                <a href="cadastro.html">
-                  <p>Cadastre-se</p>
-                </a>
-              </nav>
-            </div>
-            <div class="login">
-              <details><summary>Login</summary>
-                <form>
-                    <label for="CNPJ">CNPJ</label>
-                    <input type="text" placeholder="CNPJ" id="CNPJ" />
-                    <p>ou</p>
-                    <label for="CPF">CPF</label>
-                    <input type="text" placeholder="CPF" id="CPF" />
-                    <label for="Senha">Senha</label>
-                    <input type="password" placeholder="Senha" id="Senha" />
-                    <button type="submit" id="buscar">Enviar</button>
-                </form>
-              </details>
-            </div>
-          </div>
-        </div>
-        <div class="buscar">
-          <div class="icon_busca">
-            <img
-              src="../assets/IMG/global/localizacao.png"
-              alt="Pino de localizacao"
-              width="100px"
-            />
-          </div>
-          <div class="frase_rastreio">
-            <p>Ratreie sua encomenda</p>
-          </div>
-          <div class="buscar_produto">
-            <form>
-              <input
-                type="text"
-                id="buscar_produto"
-                placeholder=" ID do Produto"
+  <header>
+    <div class="cabecalho">
+      <div class="logo">
+        <nav>
+          <a href="../index.html">
+            <picture>
+              <source
+                srcset="../assets/IMG/global/Logo_com_fundo.jpg"
+                media="(max-width: 1015px)"
               />
-              <button type="submit" id="id_do_produto">Procurar</button>
-            </form>
-          </div>
+              <img
+                src="../assets/IMG/global/Logo_estendida_meio.jpg"
+                alt="Logo G.A Moura"
+                width="200px"
+              />
+            </picture>
+          </a>
+        </nav>
+      </div>
+      <div class="user">
+        <div class="icone">
+          <img
+            src="../assets/IMG/global/user.png"
+            alt="icone de usuario"
+            width="200px"
+          />
         </div>
-        <div class="menu">
-          <nav>
-            <ul>
-              <li><a href="sobre.html">Sobre G.A Moura</a>
-              </li>|
-              <li>
-                <a href="produto.html">Produtos e Servicos</a>
-              </li>|
-              <li>
-                <a href="unidade.html">Unidades e Franquias</a>
-              </li>|
-              <li>
-                <a href="sustentabilidade.html">Sustentabilidade</a>
-              </li>|
-              <li><a href="atendimento.html">Atendimento</a></li>
-            </ul>
-          </nav>
+        <div class="login_cadastro">
+          <div class="cadastro">
+            <nav>
+              <a href="cadastro.html">
+                <p>Cadastre-se</p>
+              </a>
+            </nav>
+          </div>
+          <div class="login">
+            <details><summary>Login</summary>
+              <form>
+                  <label for="CNPJ">CNPJ</label>
+                  <input type="text" placeholder="CNPJ" id="CNPJ" />
+                  <p>ou</p>
+                  <label for="CPF">CPF</label>
+                  <input type="text" placeholder="CPF" id="CPF" />
+                  <label for="Senha">Senha</label>
+                  <input type="password" placeholder="Senha" id="Senha" />
+                  <button type="submit" id="buscar">Enviar</button>
+              </form>
+            </details>
+          </div>
         </div>
       </div>
-    </header>
+      <div class="buscar">
+        <div class="icon_busca">
+          <img
+            src="../assets/IMG/global/localizacao.png"
+            alt="Pino de localizacao"
+            width="100px"
+          />
+        </div>
+        <div class="frase_rastreio">
+          <p>Ratreie sua encomenda</p>
+        </div>
+        <div class="buscar_produto">
+          <form>
+            <input
+              type="text"
+              id="buscar_produto"
+              placeholder=" ID do Produto"
+            />
+            <button type="submit" id="id_do_produto">Procurar</button>
+          </form>
+        </div>
+      </div>
+      <div class="menu">
+        <nav>
+          <ul>
+            <li><a href="./sobre.html">Sobre G.A Moura</a></li>|
+            <li><a href="./produto.html">Produtos e Servicos</a></li>|
+            <li><a href="./unidade.html">Unidades e Franquias</a></li>|
+            <li><a href="./sustentabilidade.html">Sustentabilidade</a></li>|
+            <li><a href="./frete.html">Calcule seu frete</a></li>|
+            <li><a href="./atendimento.html">Atendimento</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <footer>
+    <div class="rodape">
+      <ul class="menu">
+        <li><a href="./sobre.html">Sobre G.A Moura</a></li>
+        <li><a href="./produto.html">Produtos e Servicos</a></li>
+        <li><a href="./unidade.html">Unidades e Franquias</a></li>
+        <li><a href="./sustentabilidade.html">Sustentabilidade</a></li>
+        <li><a href="./atendimento.html">Atendimento</a></li>
+      </ul>
+      <ul class="suporte">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="#trabalhecom_nosco">Trabalhe com nosco</a></li>
+        <li><a href="suporte">suporte</a></li>
+      </ul>
+      <ul class="empresa">
+        <li><a href="#empresa">Empresas</a></li>
+        <li><a href="#ajuda">Ajuda</a></li>
+        <li><a href="#perfil">perfil</a></li>
+      </ul>
+    </div>
+    <div class="social">
+      <h4>Redes Sociais</h4>
+      <a href="#">Instagram</a> | <a href="#">Facebook</a> |
+      <a href="#">linkedin</a>
+    </div>
+    <p>&copy; 2024 G.A Moura. Todos os direitos reservados.</p>
+  </footer>
 </body>
 </html>
